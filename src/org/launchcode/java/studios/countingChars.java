@@ -37,8 +37,9 @@ public class countingChars {
 
 
        System.out.println(uniqueChars);
-       System.out.println(letterCount);
-
+        for (char x  : letterCount.keySet()) {
+            System.out.println(x+":"+letterCount.get(x));
+        }
 
 
 
